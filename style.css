@@ -66,15 +66,6 @@ h6 {
 
 /* END OF CSS RESET */
 
-.attribution {
-  position: fixed;
-  bottom: 0;
-}
-
-.attribution a {
-  color: var(--primary-color);
-}
-
 :root {
   --primary-color: hsl(75, 94%, 57%);
   --white: hsl(0, 0%, 100%);
@@ -160,4 +151,14 @@ body {
   color: var(--white);
   font-size: 12px;
   font-weight: 700;
+}
+
+/* Attribution */
+
+.attribution {
+  position: fixed;
+  bottom: 8px;
+}
+.attribution a {
+  color: var(--primary-color);
 }
